@@ -8,9 +8,9 @@ This container is based on Ubuntu LTS and includes [Azul Systems' Zulu](https://
 
 ### Uses `C.UTF-8` Locale
 
-The `LOCALE` environment variable is set to `C.UTF-8`, which ensures the use of UTF-8 encoding _without_ otherwise deviating from POSIX behavior.
+The `LANG` environment variable is set to `C.UTF-8`, which ensures the use of UTF-8 encoding _without_ otherwise deviating from POSIX behavior.
 
-### Includes unlimited cryptography policy
+### Configures unlimited cryptography policy
 
 No more connection failures due to third party servers forcing the use of strong key lengths.
 
